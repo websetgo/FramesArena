@@ -1,0 +1,20 @@
+{
+  "name": "LoginApp",
+  "main": "app.js",
+  "dependencies": {
+    "express": "*",
+    "ejs": "*",
+    "mongoose": "*",
+    "passport": "*",
+    "passport-local": "*",
+    "passport-facebook": "*",
+    "passport-google-oauth": "*",
+    "connect-flash": "*",
+    "bcrypt-nodejs": "*",
+    "morgan": "*",
+    "body-parser": "*",
+    "cookie-parser": "*",
+    "method-override": "*",
+    "express-session": "*"
+  }
+}

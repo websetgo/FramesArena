@@ -1,0 +1,154 @@
+
+
+
+
+//---------------------------------------------------------------------
+
+
+
+.jumbotron{
+    background-color:#2E2D88;
+    color:white;
+}
+/* Adds borders for tabs */
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+.nav-tabs {
+    margin-bottom: 0;
+}
+#nav{
+  height: 100px;
+  color: white;
+  background-color: #262626;
+}
+
+#logo{
+height: 100px;
+width: 100px;
+padding-top:10px;
+padding-bottom: 10px;
+margin-top: 20px;
+margin-left: 20px;
+}
+
+#heading{
+color: white;
+font-family: monoton;
+}
+
+#sub{
+  height: 50px;
+  width: 150px;
+  background-color: #424242;
+  color: white;
+  font-family: monoton;
+  font-size: 20px;
+}
+
+
+#sub:hover{
+  background-color: white;
+  color: #424242;
+
+}
+
+
+#options{
+font-family: monoton;
+padding-left: 80px;
+
+
+}
+#contact{
+font-family: monoton;
+font-weight: bold;
+}
+
+#log{
+  height: 40px;
+  width: 100px;
+  background-color: #424242;
+  color: white;
+  font-family: monoton;
+  font-size: 20px;
+  float: right;
+  margin-top: 50px;
+}
+
+.theme
+{
+font-family: monoton;
+font-stretch: expanded;
+font-weight: bold;
+}
+.thumbnail{
+max-width: 500px;
+max-height: 500px;
+}
+
+div.wrapper{
+	float:left; /* important */
+	position:relative; /* important(so we can absolutely position the description div */
+}
+div.description{
+	position:absolute; /* absolute position (so we can position it where we want)*/
+	bottom:0px; /* position will be on bottom */
+	left:0px;
+	width:100%;
+	/* styling bellow */
+	background-color:black;
+	color:white;
+	opacity:0.6; /* transparency */
+	filter:alpha(opacity=60); /* IE transparency */
+}
+p.description_content{
+	padding:10px;
+	margin:0px;
+	font-size: 30px;
+}
+
+.trendimages{
+  height: 350px;
+  width: 570px;
+}
+.trendimages:hover{
+  opacity: 0.9;
+}
+
+
+
+
+
+
+.carousel-indicators li {
+  border-color:#424242;
+}
+
+.carousel-indicators li.active {
+  background-color: #424242;
+}
+
+.item h4 {
+  font-size: 19px;
+  line-height: 1.375em;
+  font-weight: 400;
+  font-style: italic;
+  margin: 70px 0;
+}
+
+.item span {
+  font-style: normal;
+}
+
+.pics{
+  height: 150px;
+  width:  400px;
+}
+
+.pics:hover{
+opacity: 0.9;
+}
